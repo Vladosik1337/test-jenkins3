@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        git(url: 'https://github.com/Vladosik1337/test-jenkins3', branch: 'main')
+        echo 'HI'
       }
     }
 
